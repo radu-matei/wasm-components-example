@@ -24,9 +24,9 @@ $ cd rust-consumer && make build link run
 ### Prerequisites
 
 - [Wasmtime](https://github.com/bytecodealliance/wasmtime) at
-  [v0.31](https://github.com/bytecodealliance/wasmtime/releases/tag/v0.31.0)
+  [v0.33](https://github.com/bytecodealliance/wasmtime/releases/tag/v0.33.0)
 - [`wit-bindgen`](https://github.com/bytecodealliance/wit-bindgen) at
-  [32e63116d](https://github.com/bytecodealliance/wit-bindgen/commit/32e63116d469d8046727fae3c1333a7d35d0c5d3)
+  [2e654dc82b](https://github.com/bytecodealliance/wit-bindgen/commit/2e654dc82b7f9331719ba617a36ed5967b2aecb0)
 - [WASI SDK](https://github.com/WebAssembly/wasi-sdk) at
   [v12+](https://github.com/WebAssembly/wasi-sdk/releases/tag/wasi-sdk-14) in
   `/opt/wasi-sdk/` (configurable in `Makefile`)

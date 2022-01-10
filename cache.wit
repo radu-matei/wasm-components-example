@@ -2,8 +2,8 @@
 
 // Type for cache errors.
 enum error {
-    runtime_error,
-    not_found_error,
+    runtime-error,
+    not-found-error,
 }
 
 // Payload for cache values.

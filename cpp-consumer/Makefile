@@ -18,7 +18,7 @@ link:
 		--output linked.wasm
 
 run:
-	$(WASMTIME) --enable-module-linking --enable-multi-memory --mapdir=/cache::. linked.wasm
+	$(WASMTIME) --wasm-features=module-linking,multi-memory --mapdir=/cache::. linked.wasm
 
 clean:
 	rm *.wasm && rm *.o

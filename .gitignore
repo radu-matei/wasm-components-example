@@ -9,3 +9,4 @@ Cargo.lock
 *.wasm
 *.o
 cache
+*.rdb
